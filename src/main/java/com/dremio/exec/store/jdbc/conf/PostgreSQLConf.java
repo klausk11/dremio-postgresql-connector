@@ -19,9 +19,9 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.common.annotations.VisibleForTesting;
 import io.protostuff.Tag;
 
-@SourceType(value = "PostgreSQLARP", label = "PostgreSQL",uiConfig = "postgresql-layout.json")
+@SourceType(value = "PostgreSQLARP", label = "CData PostgreSQL",uiConfig = "postgresql-layout.json")
 public class PostgreSQLConf extends AbstractArpConf<PostgreSQLConf> {
-  private static final String ARP_FILENAME = "arp/implementation/postgresql-arp.yaml";
+  private static final String ARP_FILENAME = "arp/implementation/CDatapostgresql-arp.yaml";
   private static final ArpDialect ARP_DIALECT =
       AbstractArpConf.loadArpFile(ARP_FILENAME, (ArpDialect::new));
   private static final String DRIVER = "cdata.jdbc.postgresql.PostgreSQLDriver";

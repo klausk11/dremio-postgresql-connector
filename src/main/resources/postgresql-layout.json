@@ -10,7 +10,7 @@
         "isGeneral": true,
         "sections": [
           {
-            "name": "PostgreSQL Source",
+            "name": "CData PostgreSQL Source",
             "layout": "row",
             "elements": [
                 {
